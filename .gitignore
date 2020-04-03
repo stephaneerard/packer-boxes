@@ -1,0 +1,8 @@
+distros/*/packer_cache/*
+distros/*/output-virtualbox-iso/*
+*.box
+iso/*
+.vagrant/*
+centos6/roles/*
+*/.vagrant/*
+node_modules/*
