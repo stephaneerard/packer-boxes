@@ -4,4 +4,3 @@
 iso/*
 .vagrant/*
 centos6/roles/*
-*/.vagrant/*
