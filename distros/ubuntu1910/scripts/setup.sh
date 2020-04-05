@@ -13,4 +13,4 @@ chmod 600 ~/.ssh/authorized_keys
 chown -R vagrant ~/.ssh
 
 echo "Installing linux headers & vb guest utils for future compilation"
-sudo apt-get install -y build-essential virtualbox-guest-utils linux-headers-$(uname -r)
+sudo apt-get install -y build-essential virtualbox-guest-utils linux-headers-$(uname -r) virtualbox-guest-dkms

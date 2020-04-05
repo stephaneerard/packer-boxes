@@ -1,6 +1,4 @@
-{% if config.choose_mirror_bin %}
 choose-mirror-bin mirror/http/proxy string {{ apt_proxy_http_endpoint }}
-{% endif %}
 d-i base-installer/kernel/override-image string linux-server
 d-i clock-setup/utc boolean true
 d-i clock-setup/utc-auto boolean true
